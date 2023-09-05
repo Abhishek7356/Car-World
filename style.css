@@ -1,0 +1,46 @@
+body {
+    /* background-color: rgb(204, 243, 243); */
+    /* background-color: rgb(153, 239, 239); */
+}
+
+body::before {
+    content: '';
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background-image: url("https://www.wallpapertip.com/wmimgs/0-3336_bbt-wallpapers-download-hd-car-wallpapers-for-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: .8;
+}
+
+.box {
+    border-radius: 5px;
+    height: 450px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgba(204, 206, 207, 0.795);
+}
+
+#carDetails {
+    font-weight: 400;
+    border-radius: 5px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px; */
+    display: none;
+}
+
+.outerBox {
+    padding: 3em;
+}
+
+
+@media screen and (max-width: 600px) {
+    .outerBox {
+        padding: 1em;
+    }
+
+    body::before {
+        height: 250vh;
+    }
+}
