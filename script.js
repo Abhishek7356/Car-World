@@ -37,7 +37,7 @@ function retreiveData() {
             console.log(carObj);
             cName.innerHTML = `Brand name : ${carObj.carName}`;
             cPrice.innerHTML = `Car price : ${carObj.carPrice}`;
-            cKey.innerHTML = `Key : ${carObj.carKey}`;
+            // cKey.innerHTML = `Key : ${carObj.carKey}`;
             carDetails.style.display = 'block';
         } else {
             alert('key not found');

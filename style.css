@@ -5,7 +5,7 @@ body {
 
 body::before {
     content: '';
-    height: 100vh;
+    height: 110vh;
     width: 100%;
     position: absolute;
     z-index: -1;
@@ -16,17 +16,19 @@ body::before {
     opacity: .8;
 }
 
+
 .box {
     border-radius: 5px;
     height: 450px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    background-color: rgba(204, 206, 207, 0.795);
+    background-color: rgba(204, 206, 207, 0.825);
 }
 
 #carDetails {
     font-weight: 400;
     border-radius: 5px;
-    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px; */
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
     display: none;
 }
 
@@ -41,6 +43,7 @@ body::before {
     }
 
     body::before {
-        height: 250vh;
+        height: 240vh;
+        background-position: right;
     }
 }
